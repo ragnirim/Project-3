@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
 django-bootstrap4 = "*"
 easy-thumbnails = "*"
 django-cleanup = "*"
+djangorestframework = "*"
+django-cors-headers = "*"
+django = "==3.2.4"
 
 [dev-packages]
 
